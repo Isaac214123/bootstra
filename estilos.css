@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@1,500&family=Asul&family=Fredoka&family=Kameron&family=Montserrat+Alternates:wght@300&family=Montserrat:ital@1&family=Open+Sans:wght@300&family=Patrick+Hand&family=Poppins:wght@300&family=Raleway:ital@1&family=Roboto:ital,wght@0,300;0,400;1,700&family=Russo+One&family=Signika+Negative:wght@600&family=Unica+One&display=swap');
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+
+#menu a{
+    font-size: 17px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+#menu button{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+/* carrusel */
+
+.carousel-inner{
+max-height:37rem ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+    #intro{
+        width: 90% !important;
+    }
+
+    .servicio-fila{
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
+@media(max-width:576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
